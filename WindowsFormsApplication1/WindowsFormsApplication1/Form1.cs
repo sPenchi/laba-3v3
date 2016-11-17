@@ -80,5 +80,10 @@ namespace WindowsFormsApplication1
         {
             T2_textBox3.Text = Convert.ToString(del(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
         }
+
+        private void T2_textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
