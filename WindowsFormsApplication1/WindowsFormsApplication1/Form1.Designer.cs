@@ -72,6 +72,7 @@
             this.T2_textBox1.Name = "T2_textBox1";
             this.T2_textBox1.Size = new System.Drawing.Size(141, 20);
             this.T2_textBox1.TabIndex = 8;
+            this.T2_textBox1.TextChanged += new System.EventHandler(this.T2_textBox1_TextChanged);
             // 
             // T2_textBox3
             // 
