@@ -50,5 +50,20 @@ namespace WindowsFormsApplication1
         {
 
         }
+
+        private void T2_button3_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(step(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void T2_button6_Click(object sender, EventArgs e)
+        {
+            T2_textBox3.Text = Convert.ToString(koren(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
+        }
     }
 }
