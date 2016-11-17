@@ -35,6 +35,8 @@
             this.T2_textBox3 = new System.Windows.Forms.TextBox();
             this.T2_button6 = new System.Windows.Forms.Button();
             this.T2_button3 = new System.Windows.Forms.Button();
+            this.T2_button5 = new System.Windows.Forms.Button();
+            this.T2_button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // T2_button4
@@ -70,6 +72,7 @@
             this.T2_textBox1.Name = "T2_textBox1";
             this.T2_textBox1.Size = new System.Drawing.Size(141, 20);
             this.T2_textBox1.TabIndex = 8;
+            this.T2_textBox1.TextChanged += new System.EventHandler(this.T2_textBox1_TextChanged);
             // 
             // T2_textBox3
             // 
@@ -86,6 +89,7 @@
             this.T2_button6.TabIndex = 14;
             this.T2_button6.Text = "Корень";
             this.T2_button6.UseVisualStyleBackColor = true;
+            this.T2_button6.Click += new System.EventHandler(this.T2_button6_Click);
             // 
             // T2_button3
             // 
@@ -95,12 +99,35 @@
             this.T2_button3.TabIndex = 13;
             this.T2_button3.Text = "В степень";
             this.T2_button3.UseVisualStyleBackColor = true;
+            this.T2_button3.Click += new System.EventHandler(this.T2_button3_Click);
+            // 
+            // T2_button5
+            // 
+            this.T2_button5.Location = new System.Drawing.Point(334, 250);
+            this.T2_button5.Name = "T2_button5";
+            this.T2_button5.Size = new System.Drawing.Size(75, 23);
+            this.T2_button5.TabIndex = 16;
+            this.T2_button5.Text = "Деление";
+            this.T2_button5.UseVisualStyleBackColor = true;
+            this.T2_button5.Click += new System.EventHandler(this.T2_button5_Click);
+            // 
+            // T2_button2
+            // 
+            this.T2_button2.Location = new System.Drawing.Point(71, 250);
+            this.T2_button2.Name = "T2_button2";
+            this.T2_button2.Size = new System.Drawing.Size(75, 23);
+            this.T2_button2.TabIndex = 15;
+            this.T2_button2.Text = "Вычитание";
+            this.T2_button2.UseVisualStyleBackColor = true;
+            this.T2_button2.Click += new System.EventHandler(this.T2_button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(480, 523);
+            this.Controls.Add(this.T2_button5);
+            this.Controls.Add(this.T2_button2);
             this.Controls.Add(this.T2_button6);
             this.Controls.Add(this.T2_button3);
             this.Controls.Add(this.T2_textBox3);
@@ -110,6 +137,7 @@
             this.Controls.Add(this.T2_textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,6 +152,8 @@
         private System.Windows.Forms.TextBox T2_textBox3;
         private System.Windows.Forms.Button T2_button6;
         private System.Windows.Forms.Button T2_button3;
+        private System.Windows.Forms.Button T2_button5;
+        private System.Windows.Forms.Button T2_button2;
     }
 }
 
