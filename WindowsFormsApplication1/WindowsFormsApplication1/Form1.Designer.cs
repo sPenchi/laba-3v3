@@ -108,6 +108,7 @@
             this.T2_button5.TabIndex = 16;
             this.T2_button5.Text = "Деление";
             this.T2_button5.UseVisualStyleBackColor = true;
+            this.T2_button5.Click += new System.EventHandler(this.T2_button5_Click);
             // 
             // T2_button2
             // 
@@ -117,6 +118,7 @@
             this.T2_button2.TabIndex = 15;
             this.T2_button2.Text = "Вычитание";
             this.T2_button2.UseVisualStyleBackColor = true;
+            this.T2_button2.Click += new System.EventHandler(this.T2_button2_Click);
             // 
             // Form1
             // 
